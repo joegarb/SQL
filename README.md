@@ -1,2 +1,2 @@
 # sql
-Assorted SQL scripts that I don't want to lose
+Assorted SQL scripts that I don't want to lose!
