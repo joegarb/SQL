@@ -7,5 +7,5 @@ VALUES
     ('C', NULL, NULL, 1)
 
 SELECT Name, FlagNumber
-FROM #table WITH(NOLOCK)
+FROM #table
 UNPIVOT (Flag FOR FlagNumber IN (Flag1, Flag2, Flag3)) AS Unpvt
